@@ -50,8 +50,8 @@ client.on('interactionCreate', async interaction => {
       .setTitle('Available Commands')
       .setDescription('Here are the commands you can use:')
       .addFields(
-        { name: '!run <language(cpp/python)> <code>', value: 'Runs code in the specified language (e.g., `/run cpp` <code>`).', inline: false },
-        { name: '!compile <language> <code>', value: 'Compiles code in the specified language (e.g., `/compile cpp` <code>`).', inline: false },
+        { name: '!run <language(cpp/python)> <code>', value: 'Runs code in the specified language (e.g., `!run cpp` <code>`).', inline: false },
+        { name: '!compile <language> <code>', value: 'Compiles code in the specified language (e.g., `!compile cpp` <code>`).', inline: false },
         { name: '/help', value: 'Displays this help message.', inline: false }
       )
       .setTimestamp()
